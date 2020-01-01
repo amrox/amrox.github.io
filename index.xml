@@ -6,19 +6,10 @@
     <description>Recent content on Andy Mroczkowski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 17:07:08 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2019 23:37:17 -0400</lastBuildDate>
     
 	<atom:link href="https://mrox.co/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My 2019 in Review</title>
-      <link>https://mrox.co/posts/2019-review/</link>
-      <pubDate>Wed, 01 Jan 2020 17:07:08 -0500</pubDate>
-      
-      <guid>https://mrox.co/posts/2019-review/</guid>
-      <description>Books  Turn the Ship Around  </description>
-    </item>
     
     <item>
       <title>About</title>
@@ -27,15 +18,6 @@
       
       <guid>https://mrox.co/pages/about/</guid>
       <description>TODO</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://mrox.co/fixed/about/</link>
-      <pubDate>Mon, 13 May 2019 22:50:31 -0400</pubDate>
-      
-      <guid>https://mrox.co/fixed/about/</guid>
-      <description></description>
     </item>
     
   </channel>
