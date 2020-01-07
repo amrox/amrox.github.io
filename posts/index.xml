@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Andy Mroczkowski</title>
-    <link>https://mrox.co/</link>
-    <description>Recent content on Andy Mroczkowski</description>
+    <title>Posts on Andy Mroczkowski</title>
+    <link>https://mrox.co/posts/</link>
+    <description>Recent content in Posts on Andy Mroczkowski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Jan 2020 17:07:08 -0500</lastBuildDate>
     
-	<atom:link href="https://mrox.co/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mrox.co/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://mrox.co/posts/2019-review/</guid>
       <description>For the reboot of my blog, I thought I&#39;d do a quick recap some of my professional learnings of the last year.
 Modern C++ The last time I used C++ on the regular was 2007. Well, a lot has changed since then. C++0x became C++11, marking the beginning of the &amp;ldquo;Modern C++&amp;rdquo; era. I picked up a copy of A Tour of C++ to reacquaint myself with the language. I also subscribed to the CppCast and cpp.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://mrox.co/pages/about/</link>
-      <pubDate>Tue, 13 Aug 2019 23:37:17 -0400</pubDate>
-      
-      <guid>https://mrox.co/pages/about/</guid>
-      <description>&amp;ldquo;Vell, amrox is just zis guy, you know?&amp;quot;</description>
     </item>
     
   </channel>

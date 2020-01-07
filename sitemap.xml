@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mrox.co/pages/about/</loc>
-    <lastmod>2019-08-13T23:37:17-04:00</lastmod>
+    <loc>https://mrox.co/</loc>
+    <lastmod>2020-01-06T17:07:08-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mrox.co/</loc>
+    <loc>https://mrox.co/posts/2019-review/</loc>
+    <lastmod>2020-01-06T17:07:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrox.co/posts/</loc>
+    <lastmod>2020-01-06T17:07:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mrox.co/pages/about/</loc>
     <lastmod>2019-08-13T23:37:17-04:00</lastmod>
   </url>
   
