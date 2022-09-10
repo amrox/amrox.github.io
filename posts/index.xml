@@ -6,18 +6,14 @@
     <description>Recent content in Posts on Andy Mroczkowski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 17:07:08 -0500</lastBuildDate>
-    
-	<atom:link href="https://mrox.co/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 06 Jan 2020 17:07:08 -0500</lastBuildDate><atom:link href="https://mrox.co/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 2019 in Review</title>
       <link>https://mrox.co/posts/2019-review/</link>
       <pubDate>Mon, 06 Jan 2020 17:07:08 -0500</pubDate>
       
       <guid>https://mrox.co/posts/2019-review/</guid>
-      <description>For the reboot of my blog, I thought I&#39;d do a quick recap some of my professional learnings of the last year.
+      <description>For the reboot of my blog, I thought I&amp;rsquo;d do a quick recap some of my professional learnings of the last year.
 Modern C++ The last time I used C++ on the regular was 2007. Well, a lot has changed since then. C++0x became C++11, marking the beginning of the &amp;ldquo;Modern C++&amp;rdquo; era. I picked up a copy of A Tour of C++ to reacquaint myself with the language. I also subscribed to the CppCast and cpp.</description>
     </item>
     

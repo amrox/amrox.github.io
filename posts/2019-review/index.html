@@ -11,16 +11,17 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="My 2019 in Review"/>
-<meta name="twitter:description" content="For the reboot of my blog, I thought I&#39;d do a quick recap some of my professional learnings of the last year.
+<meta name="twitter:description" content="For the reboot of my blog, I thought I&rsquo;d do a quick recap some of my professional learnings of the last year.
 Modern C&#43;&#43; The last time I used C&#43;&#43; on the regular was 2007. Well, a lot has changed since then. C&#43;&#43;0x became C&#43;&#43;11, marking the beginning of the &ldquo;Modern C&#43;&#43;&rdquo; era. I picked up a copy of A Tour of C&#43;&#43; to reacquaint myself with the language. I also subscribed to the CppCast and cpp."/>
 
     <meta property="og:title" content="My 2019 in Review" />
-<meta property="og:description" content="For the reboot of my blog, I thought I&#39;d do a quick recap some of my professional learnings of the last year.
+<meta property="og:description" content="For the reboot of my blog, I thought I&rsquo;d do a quick recap some of my professional learnings of the last year.
 Modern C&#43;&#43; The last time I used C&#43;&#43; on the regular was 2007. Well, a lot has changed since then. C&#43;&#43;0x became C&#43;&#43;11, marking the beginning of the &ldquo;Modern C&#43;&#43;&rdquo; era. I picked up a copy of A Tour of C&#43;&#43; to reacquaint myself with the language. I also subscribed to the CppCast and cpp." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mrox.co/posts/2019-review/" />
+<meta property="og:url" content="https://mrox.co/posts/2019-review/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-01-06T17:07:08-05:00" />
 <meta property="article:modified_time" content="2020-01-06T17:07:08-05:00" />
+
 
 
     
@@ -55,7 +56,7 @@ Modern C&#43;&#43; The last time I used C&#43;&#43; on the regular was 2007. Wel
     <link rel="icon" type="image/png" href="https://mrox.co/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://mrox.co/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   <body class=" ">
@@ -112,36 +113,36 @@ Modern C&#43;&#43; The last time I used C&#43;&#43; on the regular was 2007. Wel
       </header>
 
       <div>
-        <p>For the reboot of my blog, I thought I'd do a quick recap some of my professional learnings of the last year.</p>
+        <p>For the reboot of my blog, I thought I&rsquo;d do a quick recap some of my professional learnings of the last year.</p>
 <h2 id="modern-c">Modern C++</h2>
 <p>The last time I used C++ on the regular was 2007. Well, a lot has changed since then. C++0x became C++11, marking the beginning of the &ldquo;Modern C++&rdquo; era. I picked up a copy of <a href="https://www.goodreads.com/book/show/18197265-a-tour-of-c">A Tour of C++</a> to reacquaint myself with the language. I also subscribed to the <a href="https://cppcast.com/">CppCast</a> and <a href="https://cpp.chat/">cpp.chat</a> podcasts.</p>
 <p>Why subject myself to C++ in a world with <em>true</em> modern languages like Rust and Swift? C++ and C are the only tried and true ways to create compact, performant, library-level code that can run on both iOS and Android. Rust and Kotlin-Native are promising but not there yet. I have <em>a lot</em> more thoughts on this topic. Stay tuned.</p>
 <h2 id="cmake">CMake</h2>
-<p>Most modern C++ projects use <a href="https://cmake.org/">CMake</a> as the build system. I had been exposed to CMake before, but I didn't really &ldquo;get&rdquo; it. I would just google and stackoverflow and swear my way through minor edits. This year, I decided I wanted to actually try to learn it. I came across a great interview with <a href="https://cppcast.com/craig-scott-cmake/">Craig Scott on CppCast</a> which led me to <a href="https://crascit.com/professional-cmake/">his book on CMake</a>. That, along with online guides such as <a href="https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1">Effective Modern CMake</a> has been immensely helpful.</p>
+<p>Most modern C++ projects use <a href="https://cmake.org/">CMake</a> as the build system. I had been exposed to CMake before, but I didn&rsquo;t really &ldquo;get&rdquo; it. I would just google and stackoverflow and swear my way through minor edits. This year, I decided I wanted to actually try to learn it. I came across a great interview with <a href="https://cppcast.com/craig-scott-cmake/">Craig Scott on CppCast</a> which led me to <a href="https://crascit.com/professional-cmake/">his book on CMake</a>. That, along with online guides such as <a href="https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1">Effective Modern CMake</a> has been immensely helpful.</p>
 <h2 id="flutter">Flutter</h2>
 <p><a href="https://flutter.dev">Flutter</a> is a cross-platform mobile (and web <em>and</em> desktop) framework from Google. We used it to develop some sales tools at work. My experience was&hellip; mixed.</p>
-<p>Full disclosure, I have not written a line of Dart myself yet. Rather, I was responsible for a team that was writing Dart and the CI/CD pipeline for the project. I was hoping to see much faster iteration than we experienced with separate native iOS and Android codebases. This didn't really pan out, but I'm not sure we gave it a fair shot either.</p>
+<p>Full disclosure, I have not written a line of Dart myself yet. Rather, I was responsible for a team that was writing Dart and the CI/CD pipeline for the project. I was hoping to see much faster iteration than we experienced with separate native iOS and Android codebases. This didn&rsquo;t really pan out, but I&rsquo;m not sure we gave it a fair shot either.</p>
 <p>First, we integrated Flutter into existing iOS and Android projects, instead of letting Flutter &ldquo;own&rdquo; the project. This broke a lot of the advantages of Flutter, like hot-code reloading. Kind of the worst of both worlds. Also we had to integrate heavily with our own native framework, which is a often a weak point of cross-platform tools.</p>
 <p>However, I hope to learn to try Flutter again in a more standard way. Hopefully my experience will be better.</p>
 <h2 id="modern-javascript--react">Modern JavaScript &amp; React</h2>
-<p>I never cared much for JavaScript (I'm looking at you, <code>var</code>). However, <a href="http://es6-features.org/#Constants">ECMAScript 6</a> (aka EMCMAScript 2015, aka ES6) has fixed that with the addition of <code>let</code> and <code>const</code>, among many other things. Also, JS is pretty hard to ignore these days. So, I bit the bullet and jumped into the wild world of modern frontend web development. And actually, it's not that bad! The frameworks and tooling have come quite a long way. I'm working my way through <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/">Modern JavaScript From The Beginning</a> on Udemy and enjoying it.</p>
-<p>For frameworks, <a href="https://reactjs.org/">React</a> seems like it's <a href="https://2019.stateofjs.com/front-end-frameworks/">here to stay</a>. I've been using it a bit at work and it's productive and enjoyable so far. I'm also curious <a href="https://react-native.org/">React Native</a>, but mostly as a opportunity to play with <a href="https://cljsrn.org/">ClojureScript</a>.</p>
+<p>I never cared much for JavaScript (I&rsquo;m looking at you, <code>var</code>). However, <a href="http://es6-features.org/#Constants">ECMAScript 6</a> (aka EMCMAScript 2015, aka ES6) has fixed that with the addition of <code>let</code> and <code>const</code>, among many other things. Also, JS is pretty hard to ignore these days. So, I bit the bullet and jumped into the wild world of modern frontend web development. And actually, it&rsquo;s not that bad! The frameworks and tooling have come quite a long way. I&rsquo;m working my way through <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/">Modern JavaScript From The Beginning</a> on Udemy and enjoying it.</p>
+<p>For frameworks, <a href="https://reactjs.org/">React</a> seems like it&rsquo;s <a href="https://2019.stateofjs.com/front-end-frameworks/">here to stay</a>. I&rsquo;ve been using it a bit at work and it&rsquo;s productive and enjoyable so far. I&rsquo;m also curious <a href="https://react-native.org/">React Native</a>, but mostly as a opportunity to play with <a href="https://cljsrn.org/">ClojureScript</a>.</p>
 <h2 id="books">Books</h2>
-<p>These are the tech, management and leadership books I added to by brain last year. I didn't necessarily read them all cover to cover – most of them are not that kind of book.</p>
+<p>These are the tech, management and leadership books I added to by brain last year. I didn&rsquo;t necessarily read them all cover to cover – most of them are not that kind of book.</p>
 <ul>
 <li><a href="https://www.goodreads.com/book/show/18043011-clean-architecture">Clean Architecture</a> by Robert C. Martin 📖</li>
 <li><a href="https://www.goodreads.com/book/show/8082269-domain-specific-languages">Domain Specific Languages</a> by Martin Fowler 📖</li>
 <li><a href="https://www.goodreads.com/book/show/18197265-a-tour-of-c">A Tour of C++</a> by Bjarne Stroustrup 📖</li>
 <li><a href="https://crascit.com/professional-cmake/">Professional CMake: A Practical Guide</a> by Craig Scott 📖</li>
-<li><a href="https://www.goodreads.com/book/show/49450844-it-s-the-manager">It's the Manager</a> by by Jim Clifton, Jim Harter 📖</li>
-<li><a href="https://www.goodreads.com/book/show/33369254-the-manager-s-path">The Manager's Path</a> by Camille Fournier 📖</li>
-<li><a href="https://www.goodreads.com/book/show/38900866-it-doesn-t-have-to-be-crazy-at-work">It Doesn't Have to Be Crazy at Work</a> by Jason Fried, David Heinemeier Hansson 🎧</li>
+<li><a href="https://www.goodreads.com/book/show/49450844-it-s-the-manager">It&rsquo;s the Manager</a> by by Jim Clifton, Jim Harter 📖</li>
+<li><a href="https://www.goodreads.com/book/show/33369254-the-manager-s-path">The Manager&rsquo;s Path</a> by Camille Fournier 📖</li>
+<li><a href="https://www.goodreads.com/book/show/38900866-it-doesn-t-have-to-be-crazy-at-work">It Doesn&rsquo;t Have to Be Crazy at Work</a> by Jason Fried, David Heinemeier Hansson 🎧</li>
 <li><a href="https://www.goodreads.com/book/show/34403537-mindset">Mindset</a> by Carol S. Dweck 🎧</li>
 <li><a href="https://www.goodreads.com/book/show/16158601-turn-the-ship-around">Turn the Ship Around</a> by L. David Marquet 📖 🎧</li>
 </ul>
 <p>📖 = Physical or eBook, 🎧=  Audiobook</p>
-<h2 id="whats-next">What's Next</h2>
-<p>They say always say that starting is the hardest part. I'm happy to be writing again and I hope to have a lot more to share with you in the year to come.</p>
+<h2 id="whats-next">What&rsquo;s Next</h2>
+<p>They say always say that starting is the hardest part. I&rsquo;m happy to be writing again and I hope to have a lot more to share with you in the year to come.</p>
 <!-- raw HTML omitted -->
 
       </div>
@@ -163,7 +164,7 @@ Modern C&#43;&#43; The last time I used C&#43;&#43; on the regular was 2007. Wel
       <footer class="footer">
   <section class="container">
     
-     © 2020
+     © 2022
     
        · 
       Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
@@ -187,7 +188,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 
